@@ -53,7 +53,7 @@ public class AggregationQueryBuilder extends ExpressionNodeVisitor<AggregationBu
   /**
    * How many composite buckets should be returned.
    */
-  public static final int AGGREGATION_BUCKET_SIZE = 1000;
+  public static final int AGGREGATION_BUCKET_SIZE = 100000;
 
   /**
    * Bucket Aggregation builder.
